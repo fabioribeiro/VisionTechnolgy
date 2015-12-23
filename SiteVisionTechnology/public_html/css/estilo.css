@@ -8,11 +8,22 @@ and open the template in the editor.
     Author     : FABIO
 */
 
+header{
+    background: #bbb;
+}
+
+nav{
+    background-color: #6495ED;
+}
+
+
 /*Escopo completo*/
 * { margin:0;
     padding:0;
 }
-body { background:url(images/back.jpg); }
+body{
+    background: #1b86ea;
+}
 #menu {
     top:30px;
     margin:0 auto;
@@ -27,10 +38,13 @@ body { background:url(images/back.jpg); }
     padding:40px 0 0 0;
 }
 #copyright a { color:#bbb; }
-#copyright a:hover { color:#fff; }
-
+#copyright a:hover { color:#fff; }s
 
 /*CSS - Menu*/
+#menu_v{
+ background-color: #fff;   
+}
+
 #menu {
     position:relative;
     height:32px;
@@ -53,13 +67,13 @@ body { background:url(images/back.jpg); }
 }
 #menu li {
     float:left;
-    background:url(images/pix.gif);
+    background:url(../images/pix.gif);
 }
 #menu li li { float:none; }
 #menu div {
     display:none;
     position:absolute;
-    background:url(images/pix.gif);
+    background:url(../images/pix.gif);
     margin-top:-5px;
     width:200px;
 }
@@ -111,9 +125,9 @@ body { background:url(images/back.jpg); }
 }
 #menu a {
     text-shadow:#222 -1px -1px 0;
-    background:url(images/item.png) no-repeat left -274px;
+    background:url(../images/item.png) no-repeat left -274px;
 }
-#menu a span { background:url(images/item.png) no-repeat right -4px; }
+#menu a span { background:url(../images/item.png) no-repeat right -4px; }
 #menu li.current>a { background-position:left -319px; }
 #menu li.current>a span { background-position:right -94px; }
 #menu a.parent span {
@@ -131,12 +145,12 @@ body { background:url(images/back.jpg); }
     margin-left:4px;
     padding:4px 0 0 0;
     width:192px;
-    background:url(images/subitem.png) no-repeat 0 top;
+    background:url(../images/subitem.png) no-repeat 0 top;
 }
 #menu div a span {
     text-transform:none;
     font-size:14px;
-    background:url(images/subitem.png) no-repeat -384px bottom;
+    background:url(../images/subitem.png) no-repeat -384px bottom;
     padding-top:3px;
     padding-left:11px;
     white-space:normal;
@@ -151,12 +165,12 @@ body { background:url(images/back.jpg); }
 #menu div ul>li:hover>a.parent span, #menu div ul li a.parent:hover span { background-position:-960px bottom; }
 
 #menu div {
-    background:url(images/columns.png) no-repeat -200px top;
+    background:url(../images/columns.png) no-repeat -200px top;
     padding-top:14px;
 }
 #menu div ul {
     width:200px;
-    background:url(images/columns.png) no-repeat 0 bottom;
+    background:url(../images/columns.png) no-repeat 0 bottom;
     padding-bottom:17px;
 }
 
@@ -207,7 +221,7 @@ body { background:url(images/back.jpg); }
 #menu.active div a { position:static; }
 
 #menu.active li.back {
-    background:url(images/item.png) no-repeat left -319px;
+    background:url(../images/item.png) no-repeat left -319px;
     height:40px;
     position:absolute;
     padding:0;
@@ -217,12 +231,12 @@ body { background:url(images/back.jpg); }
     display:block;
     padding:0;
     width:auto;
-    background:url(images/item.png) no-repeat right -94px;
+    background:url(../images/item.png) no-repeat right -94px;
     height:40px;
     margin:0 5px 0 8px;
     position:relative;
     left:5px;
-    
+
 }
 #menu.active li.current-back, #menu.active li.current-parent-back { background-position:left -364px; }
 #menu.active li.current-back .left { background-position:right -184px; }
@@ -231,7 +245,7 @@ body { background:url(images/back.jpg); }
 #menu.active .spanbox {
     position:absolute;
     display:none;
-    background:url(images/pix.gif);
+    background:url(../images/pix.gif);
     margin-top:-5px;
     width:200px;
 }
@@ -278,5 +292,5 @@ body { background:url(images/back.jpg); }
     position:absolute;
 }
 .menu-images-preloading { width:2px; }
-.menu-images-preloading .columns-png { background:url(images/columns.png) no-repeat; }
-.menu-images-preloading .subitem-png { background:url(images/subitem.png) no-repeat; }
+.menu-images-preloading .columns-png { background:url(../images/columns.png) no-repeat; }
+.menu-images-preloading .subitem-png { background:url(../images/subitem.png) no-repeat; }
