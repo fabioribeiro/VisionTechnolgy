@@ -6,7 +6,7 @@ body{
     font-family: Century Gothic;
     background: #0085B2;
     width: 1000px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 #topo1{
@@ -47,26 +47,13 @@ nav ul li a{
     text-decoration: none;
 }
 
-@media all and (max-width:480px){
-
-nav{
-height:100%;
+#meio{
+    height: 800px;
+    
 }
 
-nav li{
-display:block;
-padding:10px;
-margin:0px;
-}
-
-#mensagem{
-	width:200px;
-	height:150px;	
-}
-
-#localizacao{
-	width:200px;
-	height:200px;		
-}
-
+#rodape{
+    background: #FFFFFF;
+    height: 100px;
+    margin-bottom: 10px;
 }
