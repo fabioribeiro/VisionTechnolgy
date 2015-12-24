@@ -4,6 +4,7 @@
 
 body{
     font-family: Century Gothic;
+    font-size: 100%;
     background: #0085B2;
     width: 1000px;
     margin-left: 450px;
@@ -18,6 +19,7 @@ body{
     height: 230px;
     margin-top: 10px;
     margin-left: 30px;
+    max-width: 100%;   
 }
 
 #topo2{
@@ -47,9 +49,16 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    font-style: italic;
+    background-color: #00A3DE;
+    color: #FFFFFF;
+    text-decoration-style: solid;
+    font-size: 115%;
+}
+
 #meio{
     height: 800px;
-    
 }
 
 #rodape{
@@ -57,3 +66,21 @@ nav ul li a{
     height: 100px;
     margin-bottom: 10px;
 }
+
+#redes_sociais img{
+    float: right;
+    height: 20%;
+    width:  4%;
+    margin: 5px;
+    margin-top: 53px;
+}
+
+#redes_sociais_rodape img{
+    float: right;
+    height: 20%;
+    width:  4%;
+    margin: 5px;
+    margin-top: 55px;
+}
+
+
